@@ -137,6 +137,3 @@ while current_x < axis_line_width:
 
 # Сохранение SVG файла
 dwg.save()
-
-# Преобразование SVG в PDF через Inkscape
-subprocess.run([r'D:\Programs\Inkscape\bin\inkscape.exe', svg_file, f'--export-filename={pdf_file}'])
