@@ -85,7 +85,7 @@ dwg.add(dwg.text(
     f"{int(cover_to_cover_mm)}",
     insert=(text_x, text_y),
     font_size=font_size,
-    font_family="GOST Type A",  # Оставляем шрифт
+    font_family="Arial",  # Оставляем шрифт
     fill="black",
     transform="skewX(-25)"  # Имитируем курсив через наклон
 ))
@@ -94,7 +94,7 @@ dwg.add(dwg.text(
     f"{int(pc_mm)}",
     insert=(text_xpc, text_ypc),
     font_size=font_size,
-    font_family="GOST Type A",  # Оставляем шрифт
+    font_family="Arial",  # Оставляем шрифт
     fill="black",
     transform="skewX(-25)"  # Имитируем курсив через наклон
 ))
