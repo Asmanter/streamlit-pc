@@ -10,7 +10,7 @@ svg_file = os.path.join(save_path, 'pc.svg')
 pdf_file = os.path.join(save_path, 'pc.pdf')
 
 # Задаем длину гильзы в мм
-barrel_mm = int(input("Введите ход штока: "))
+barrel_mm = 100
 cover_to_cover_mm = barrel_mm + 94  # длина поршня, внутренностей гильзы + ширина крышек 39 + 55 = 94
 pc_mm = cover_to_cover_mm + 48  # 48 - длина штока
 
